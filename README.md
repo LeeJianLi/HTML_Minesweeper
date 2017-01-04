@@ -1,5 +1,3 @@
-# HTML_Minesweeper
-
 Instruction:
 	- left click to uncover the area
 	- right click to place a flag on the area
