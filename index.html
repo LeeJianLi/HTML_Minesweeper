@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html>
+	<head>
+	    <meta charset="UTF-8">
+	    <title>Minesweeper</title>
+	    <link type="text/css" href="style.css" rel="stylesheet" />
+	    <script src="jquery-3.1.0.min.js"></script>
+	    <script src="script.js"></script>
+	</head>
+
+	<body>
+		<div>
+			Percentage of mines
+            <input type="number" min="10" max="100" step="5" class="js-mines-percentage" value="10" />
+			<br>
+			rows
+            <input type="number" min="10" max="30" step="2" class="js-board-rows" value="10" />
+            columns
+            <input type="number" min="10" max="30" step="2" class="js-board-columns" value="10" />
+		</div>
+
+		<section id="js-mine-field-section"></section>
+
+        <div id="lose-screen" class="js-lose-screen">
+            You Lost...
+            <br>
+            <button class="restart js-restart">restart</button>
+        </div>
+
+		<div id="win-screen" class="js-win-screen">
+			You Won!!!
+			<br>
+            <button class="restart js-restart">restart</button>
+		</div>
+	</body>
+</html>

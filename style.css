@@ -1,0 +1,102 @@
+@CHARSET "UTF-8";
+
+html, body {
+    width: 100%;
+}
+
+td, button {
+	width: 20px;
+    height: 20px;
+    background-color: #dadada;
+}
+
+td {
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+
+.text-color-1 {
+	color: blue;
+	font-weight: bold;
+}
+
+.text-color-2 {
+	color: green;
+	font-weight: bold;
+}
+
+.text-color-3 {
+	color: red;
+	font-weight: bold;
+}
+
+.text-color-4 {
+	color: #03107e;
+	font-weight: bold;
+}
+
+.text-color-5 {
+	color: #800000;
+	font-weight: bold;
+}
+
+.text-color-6 {
+	color: #00caca;
+	font-weight: bold;
+}
+
+.text-color-7 {
+	color: #000000;
+	font-weight: bold;
+}
+
+.text-color-8 {
+	color: #c0c0c0;
+	font-weight: bold;
+}
+
+tr {
+	background: #c5c5c5;
+}
+
+table {
+    margin: 0 auto;
+  	border-spacing: 1px;
+}
+
+div {
+	margin: auto;
+    width: 50%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+	text-align: center;
+}
+
+.empty-block {
+	background-color: #a7a7a7;
+}
+
+.mine-block {
+	background-color: red;
+}
+
+#input {
+  display: inline-block;
+}
+
+.restart {
+	width: auto;
+}
+
+#win-screen {
+	visibility: hidden;
+}
+
+#lose-screen {
+	visibility: hidden;
+}
+
+.guessed {
+	background-color: #898dc1;
+}
